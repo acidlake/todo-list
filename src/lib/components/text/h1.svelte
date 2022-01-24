@@ -2,4 +2,9 @@
   //
   export let label = 'Your h1 here..'
 </script>
-<h1>{label}</h1>
+<style>
+  .title{
+    color:green;
+  }
+</style>
+<h1 class="title">{label}</h1>
